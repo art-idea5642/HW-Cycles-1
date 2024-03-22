@@ -36,10 +36,11 @@ public class Main {
             System.out.println("Месяц "+ i + ", сумма накоплений равна " + total + " рублей");
         }
         //task9
+        int total2 = 0;
         for (int i = 1; i <= 12; i++) {
-            total = total + total/100;
-            total = total + money;
-            System.out.println("Месяц "+ i + ", сумма накоплений равна " + total + " рублей");
+            total2 = total2 + total2/100;
+            total2 = total2 + money;
+            System.out.println("Месяц "+ i + ", сумма накоплений равна " + total2 + " рублей");
         }
         //task10
         int a = 2;
